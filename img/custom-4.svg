@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Intel timeline custom image 1985</title>
+  <desc id="desc">Eco-tech illustration with green and teal gradients and the year 1985.</desc>
+  <defs>
+    <linearGradient id="bg4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f3d2e"/>
+      <stop offset="100%" stop-color="#2fbf8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" fill="url(#bg4)"/>
+  <circle cx="760" cy="100" r="100" fill="rgba(255,255,255,0.10)"/>
+  <path d="M90 390c80-80 140-80 220 0s140 80 220 0 140-80 220 0v90H90z" fill="rgba(255,255,255,0.12)"/>
+  <g transform="translate(185 120)">
+    <rect x="0" y="0" width="530" height="260" rx="28" fill="#eafef8"/>
+    <rect x="35" y="35" width="460" height="190" rx="20" fill="#133b2f"/>
+    <g fill="#81f8c1">
+      <rect x="62" y="70" width="52" height="52" rx="12"/>
+      <rect x="128" y="70" width="52" height="52" rx="12"/>
+      <rect x="194" y="70" width="52" height="52" rx="12"/>
+      <rect x="260" y="70" width="52" height="52" rx="12"/>
+      <rect x="326" y="70" width="52" height="52" rx="12"/>
+      <rect x="392" y="70" width="52" height="52" rx="12"/>
+      <rect x="62" y="138" width="52" height="52" rx="12"/>
+      <rect x="128" y="138" width="52" height="52" rx="12"/>
+      <rect x="194" y="138" width="52" height="52" rx="12"/>
+      <rect x="260" y="138" width="52" height="52" rx="12"/>
+      <rect x="326" y="138" width="52" height="52" rx="12"/>
+      <rect x="392" y="138" width="52" height="52" rx="12"/>
+    </g>
+  </g>
+  <g>
+    <text x="90" y="470" fill="#f0fff8" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="700">1985</text>
+    <text x="560" y="470" fill="#d9fef0" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="600" letter-spacing="3">386</text>
+  </g>
+</svg>

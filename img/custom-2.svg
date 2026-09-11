@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Intel timeline custom image 1971</title>
+  <desc id="desc">Abstract microprocessor illustration with a dark blue background, chip design, and the year 1971.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1f33"/>
+      <stop offset="100%" stop-color="#1a5fa8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" fill="url(#bg2)"/>
+  <g opacity="0.2" stroke="#9ed3ff" stroke-width="2">
+    <path d="M0 100h900"/>
+    <path d="M0 180h900"/>
+    <path d="M0 260h900"/>
+    <path d="M0 340h900"/>
+    <path d="M0 420h900"/>
+  </g>
+  <g transform="translate(210 140)">
+    <rect x="0" y="0" width="480" height="240" rx="36" fill="#e8f4ff"/>
+    <rect x="35" y="35" width="410" height="170" rx="20" fill="#0f223d"/>
+    <g fill="#75d4ff">
+      <rect x="58" y="58" width="42" height="42" rx="8"/>
+      <rect x="118" y="58" width="42" height="42" rx="8"/>
+      <rect x="178" y="58" width="42" height="42" rx="8"/>
+      <rect x="238" y="58" width="42" height="42" rx="8"/>
+      <rect x="298" y="58" width="42" height="42" rx="8"/>
+      <rect x="58" y="118" width="42" height="42" rx="8"/>
+      <rect x="118" y="118" width="42" height="42" rx="8"/>
+      <rect x="178" y="118" width="42" height="42" rx="8"/>
+      <rect x="238" y="118" width="42" height="42" rx="8"/>
+      <rect x="298" y="118" width="42" height="42" rx="8"/>
+    </g>
+    <circle cx="385" cy="90" r="18" fill="#9ef3c0"/>
+    <circle cx="385" cy="146" r="18" fill="#9ef3c0"/>
+  </g>
+  <text x="90" y="470" fill="#eaf9ff" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="700">1971</text>
+  <text x="565" y="470" fill="#ccecff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" letter-spacing="3">4004</text>
+</svg>
