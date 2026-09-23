@@ -20,6 +20,20 @@ img {
   display: block;
 }
 
+html[dir="rtl"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .hero-content,
+html[dir="rtl"] .feature-card,
+html[dir="rtl"] .newsletter-card,
+html[dir="rtl"] .newsletter-side,
+html[dir="rtl"] .timeline-note,
+html[dir="rtl"] .site-footer {
+  text-align: right;
+}
+
 /* Hero section */
 .hero {
   background: linear-gradient(135deg, #0057a6 0%, #0b6fcf 35%, #0d2d4d 100%);
@@ -67,6 +81,93 @@ img {
   font-size: 1.08rem;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.92);
+}
+
+/* Bootstrap feature cards */
+.feature-card,
+.newsletter-card,
+.newsletter-side {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(16, 44, 76, 0.08);
+  border: 1px solid #dfeaf6;
+  padding: 24px;
+}
+
+.feature-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card h2 {
+  margin: 18px 0 12px;
+  color: #0f2d4d;
+  font-size: 1.7rem;
+}
+
+.feature-card p,
+.newsletter-side li,
+.newsletter-card label,
+.newsletter-card .form-control,
+.accordion-body {
+  color: #314a61;
+  line-height: 1.7;
+}
+
+.feature-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #e8f3ff;
+  color: #0057a6;
+  font-weight: 700;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0057a6;
+}
+
+.newsletter-card h2,
+.newsletter-side h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #0f2d4d;
+}
+
+.newsletter-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-side li {
+  margin-bottom: 10px;
+  font-size: 1.02rem;
+}
+
+.accordion {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 26px rgba(17, 52, 85, 0.06);
+}
+
+.accordion-button {
+  font-weight: 700;
+  color: #113a5d;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #edf6ff;
+  color: #0c2d4d;
+  box-shadow: none;
 }
 
 /* Timeline section */
@@ -144,7 +245,6 @@ main {
   font-size: 0.98rem;
 }
 
-/* Hidden details reveal on hover */
 .card-extra {
   max-height: 0;
   opacity: 0;
@@ -175,6 +275,23 @@ main {
   color: #586e7d;
   font-weight: 700;
   letter-spacing: 0.02em;
+}
+
+.site-footer {
+  background: #0d2d4d;
+  color: #eaf3ff;
+  padding: 24px 0;
+}
+
+.site-footer a {
+  color: #dfeeff;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+html[dir="rtl"] .site-footer a {
+  margin-left: 0;
+  margin-right: 16px;
 }
 
 /* Mobile layout */
@@ -212,7 +329,6 @@ main {
   }
 }
 
-/* Touch devices should keep extra content visible */
 @media (hover: none) {
   .card-extra {
     max-height: 180px;
