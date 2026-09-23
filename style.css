@@ -12,7 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #f3f7fb;
   color: #1d2d3d;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 img {
@@ -186,11 +186,13 @@ main {
   flex-wrap: nowrap;
   gap: 24px;
   overflow-x: auto;
+  overflow-y: hidden;
   padding: 18px 8px 28px;
   scrollbar-width: thin;
   scrollbar-color: #0071c5 #dfeaf5;
   scroll-snap-type: x proximity;
   align-items: stretch;
+  scrollbar-gutter: stable both-edges;
 }
 
 .timeline-card {
